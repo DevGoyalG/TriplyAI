@@ -411,6 +411,31 @@ footer {
     font-size: 0.92rem;
 }
 
+/* Technology Stack */
+footer p:first-child {
+    color: #64748b;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+/* Made with ❤️ by Dev Goyal */
+footer p:last-child {
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+footer a {
+    color: #facc15;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.25s ease;
+}
+
+footer a:hover {
+    color: #fca5a5;
+}
+
 @keyframes spin {
     to {
         transform: rotate(360deg);
