@@ -182,6 +182,8 @@ Create a `.env` file in the project root and configure the following environment
 
 ```env
 # PostgreSQL Database
+# Local testing: Copy the "External Database URL" from Render and paste it into DATABASE_URL.
+# Render deployment: Copy the "Internal Database URL" from Render and set it as DATABASE_URL.
 DATABASE_URL=postgresql://username:password@host:5432/database_name
 
 # AI Model
